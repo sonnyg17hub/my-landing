@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const BRAND = 'StunninglyDigital' // palitan mo
+const BRAND = 'Stunningly Digital' // palitan mo
 const EMAIL = 'stunninglydigital@gmail.com' // palitan mo
 
 const services = [
