@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-const BRAND = 'Your Name Studio' // palitan mo
-const EMAIL = 'hello@yourdomain.com' // palitan mo
+const BRAND = 'StunninglyDigital' // palitan mo
+const EMAIL = 'stunninglydigital@gmail.com' // palitan mo
 
 const services = [
   { title: 'Landing Page', text: 'One focused page that explains your offer and gets people to message or book you.' },
@@ -23,9 +23,9 @@ const projects = [
 ]
 
 const plans = [
-  { name: 'Starter', price: '₱0,000', note: 'Landing Page', items: ['1 page', 'Mobile responsive', 'Contact form', '1 revision round'] },
-  { name: 'Business', price: '₱0,000', note: 'Business Website', items: ['Up to 5 pages', 'Inquiry form + email alerts', 'Basic SEO setup', '2 revision rounds'], featured: true },
-  { name: 'Funnel', price: '₱0,000', note: 'Funnel + Automation', items: ['Landing + thank-you pages', 'Payment integration', 'Automated emails', '2 revision rounds'] },
+  { name: 'Starter', price: '₱5,999', note: 'Landing Page', items: ['1 page', 'Mobile responsive', 'Contact form', '1 revision round'] },
+  { name: 'Business', price: '₱12,999', note: 'Business Website', items: ['Up to 5 pages', 'Inquiry form + email alerts', 'Basic SEO setup', '2 revision rounds'], featured: true },
+  { name: 'Funnel', price: '₱29,999', note: 'Funnel + Automation', items: ['Landing + thank-you pages', 'Payment integration', 'Automated emails', '2 revision rounds'] },
 ]
 
 const faqs = [
